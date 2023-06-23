@@ -39,7 +39,7 @@ int main(){
         scanf("%d",&opcion);
 
         switch(opcion){
-            case 1: ;
+            case 1:
                 agregarSocio(sociosArr,pSocio,pNumSocios,actividades);  
                 break;  
             case 2:
