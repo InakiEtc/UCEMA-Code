@@ -20,7 +20,7 @@ int main(){
     }
 
     if(j == 0){
-        printf("La cadenaa ingresada no posee letras en mayusculas.");
+        printf("La cadena ingresada no posee letras en mayusculas.");
     }
     else{
         printf("La cadena formada unicamente por las letras en mayusculas de la cadena ingresada es: ");

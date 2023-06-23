@@ -5,7 +5,6 @@
 
 int main(){
 
-    //Escribir un programa que lea 10 números por teclado. Luego lea dos más e indique si éstos están entre los anteriores.  
     int numeros[10];
     int i,num1,num2,esta1 = 0,esta2 = 0;
 

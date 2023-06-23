@@ -5,7 +5,6 @@
 
 int main(){
 
-    //Escribir un programa que lea del teclado una palabra y muestre en la pantalla la  cantidad de consonantes y de vocales que contiene
     char palabra[50];
     int vocales = 0,conson = 0;
 
