@@ -27,9 +27,9 @@ void insertion(int array[], int size){
 //Ordenamiento por metodo de burbuja
 void bubble(int array[], int size){
     int aux,sino=1;
-    for(int i = 0; i < size && sino; i++){
+    for(int i = 0; i < size-1 && sino; i++){
         sino = 0;
-        for(int j = 0; j < size-i; j++){
+        for(int j = 0; j < size-i-1; j++){
             if(array[j] > array[j+1]){
                 sino = 1;
                 aux = array[j];
