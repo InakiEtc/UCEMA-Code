@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "stdlib.h": "c",
-        "string.h": "c",
-        "order.h": "c",
-        "time.h": "c"
-    }
-}
