@@ -172,18 +172,15 @@ void buscarAuto(Auto a, FILE *archivo, char *nombreArchivo){
 void vaciarArchivo(FILE *archivo, char *nombreArchivo){        
     system("cls");
     
-    archivo = fopen(nombreArchivo,"rb");
+    archivo = fopen(nombreArchivo,"w+");
     if(archivo == NULL){
         printf("No existe el archivo \n");
         system("Pause");
         system("cls");
         return;
     }else{
-        archivo = fopen(nombreArchivo,"wb");
         fclose(archivo);
-    
         printf("Archivo vaciado con exito \n");
-        printf("\n");
         system("Pause");
         system("cls");  
     } 
