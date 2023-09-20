@@ -12,7 +12,7 @@ void ingresarAmigo(Amigo *a, FILE *archivo, char *nombreArchivo);
 void listarAmigos(Amigo a, FILE *archivo, char *nombreArchivo);
 void buscarAmigo(Amigo a, FILE *archivo, char *nombreArchivo);
 void cantidadAmigos(Amigo a, FILE *archivo, char *nombreArchivo);
-void vaciarArchivo(FILE *archivo);
+void vaciarArchivo(FILE *archivo,char *nombreArchivo);
 void eliminarArchivo(char *nombreArchivo);
 
 int main(){
@@ -47,7 +47,7 @@ int main(){
                 cantidadAmigos(a,archivo,nombreArchivo);    
                 break;
             case 5:
-                vaciarArchivo(archivo);    
+                vaciarArchivo(archivo,nombreArchivo);    
                 break;
             case 6:
                 eliminarArchivo(nombreArchivo);   
@@ -187,20 +187,22 @@ void cantidadAmigos(Amigo a, FILE *archivo, char *nombreArchivo){
     system("cls");
 }
 
-void vaciarArchivo(FILE *archivo){        
+void vaciarArchivo(FILE *archivo,char *nombreArchivo){        
     system("cls");
-    int vaciar;
-    vaciar = fflush(archivo);
-    if (vaciar == 0){
-        printf("Archivo vaciado \n");
-        system("Pause");
-        system("cls"); 
-    }else{
-        printf("No se pudo vaciar el archivo \n");
+    
+    archivo = fopen(nombreArchivo,"w+");
+    if(archivo == NULL){
+        printf("No existe el archivo \n");
         system("Pause");
         system("cls");
-    }
-} // ???
+        return;
+    }else{
+        fclose(archivo);
+        printf("Archivo vaciado con exito \n");
+        system("Pause");
+        system("cls");  
+    } 
+}
 
 void eliminarArchivo(char *nombreArchivo){
     system("cls");
