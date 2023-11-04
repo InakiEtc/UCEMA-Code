@@ -24,15 +24,16 @@ typedef struct Nodo{
     struct Nodo *siguiente;
 }Nodo;
 
-void inicio(FILE *archivoE, char *nombreArchivoE, FILE *archivoP, char *nombreArchivoP);
+void inicio(FILE *archivoE, char *nombreArchivoE, FILE *archivoP, char *nombreArchivoP, Nodo **cabeza,int *nroPedido);
 void iniciarProductos(Producto *h, Producto *s, FILE *archivoPr, char *nombreArchivoPr);
 Nodo *crearNodo(Item *entrada);
 void insertarFinal(Nodo **cabeza, Item *entrada);
 void agregarPedido(Nodo **cabeza, Producto *h, Producto *s, int nroPedido, FILE *archivoP, char *nombreArchivoP);
+//void listarPedidos(Nodo **cabeza); //lista los pedidos desde la lista enlazada
 
 int main(){
     Nodo *cabeza = NULL;
-    int op, nroPedido = 0;
+    int op, nroPedido = 1;
     FILE *archivoE = NULL, *archivoP = NULL, *archivoPr = NULL;
     char *nombreArchivoE = "entregados.bin", *nombreArchivoP = "enPreparacion.bin", *nombreArchivoPr = "productos.bin";
     Producto h,s;
@@ -40,7 +41,7 @@ int main(){
     iniciarProductos(&h,&s,archivoPr,nombreArchivoPr);
     do{
         system("cls");
-        inicio(archivoE,nombreArchivoE,archivoP,nombreArchivoP);
+        inicio(archivoE,nombreArchivoE,archivoP,nombreArchivoP,&cabeza,&nroPedido);
 
         printf("------MENU PRINCIPAL------\n");
         printf("1. AGREGAR PEDIDO\n");
@@ -54,8 +55,10 @@ int main(){
         switch(op){
             case 1:
                 agregarPedido(&cabeza,&h,&s,nroPedido,archivoP,nombreArchivoP);
+                nroPedido++;
                 break;
             case 2:
+                listarPedidos(&cabeza);
                 //entregarPedido(&cabeza);
                 break;
             case 3:
@@ -79,7 +82,7 @@ int main(){
     return 0;
 }
 
-void inicio(FILE *archivoE, char *nombreArchivoE, FILE *archivoP, char *nombreArchivoP){
+void inicio(FILE *archivoE, char *nombreArchivoE, FILE *archivoP, char *nombreArchivoP, Nodo **cabeza,int *nroPedido){
     
     system("cls");
     int cantE = 0, cantP = 0;
@@ -87,7 +90,20 @@ void inicio(FILE *archivoE, char *nombreArchivoE, FILE *archivoP, char *nombreAr
     archivoP = fopen(nombreArchivoP,"rb");
     if(archivoP == NULL){
         archivoP = fopen(nombreArchivoP,"wb");
-    }   
+    }else{
+        if(*nroPedido == 1){
+            while(!feof(archivoP)){
+                Pedido aux;    
+                size_t bytesRead = fread(&aux,sizeof(Pedido),1,archivoP);
+                if(bytesRead > 0){
+                    insertarFinal(cabeza,&aux);
+                    (*nroPedido)++;
+                }
+                fgetc(archivoP);
+            }
+        }
+    }
+
     fseek(archivoP,0,SEEK_END);
     cantP=ftell(archivoP)/sizeof(Pedido);
     rewind(archivoP);
@@ -199,7 +215,6 @@ void agregarPedido(Nodo **cabeza, Producto *h, Producto *s, int nroPedido, FILE 
         return;
     }
 
-    nroPedido++;
     entrada->idPedido = nroPedido;
     printf("\nIngrese la cantidad de hamburguesas: ");
     scanf("%d",&(entrada->cantHamburguesas));
@@ -224,3 +239,32 @@ void agregarPedido(Nodo **cabeza, Producto *h, Producto *s, int nroPedido, FILE 
     system("pause");
     return;
 }
+
+/*
+void listarPedidos(Nodo **cabeza){
+    Nodo *actual = NULL;
+
+    system("cls");
+    printf("------VER PEDIDOS------\n");
+
+    if ( *cabeza == NULL ){
+        printf("\n\nNO HAY PEDIDOS EN LA LISTA\n\n");
+        system("pause");
+        return;
+    }
+
+    actual = *cabeza;
+
+    while( actual != NULL ){
+        printf("\nID: %d\n",actual->datos.idPedido);
+        printf("CANTIDAD DE HAMBURGUESAS: %d\n",actual->datos.cantHamburguesas);
+        printf("CANTIDAD DE SALCHICHAS: %d\n",actual->datos.cantSalchichas);
+        printf("PRECIO: %.2f\n",actual->datos.precioPedido);
+
+        actual = actual->siguiente;
+    }
+
+    printf("\n");
+    system("pause");
+    return;
+}*/
