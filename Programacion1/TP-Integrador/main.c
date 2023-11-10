@@ -29,12 +29,9 @@ typedef struct Nodo{
 }Nodo;
 
 // firmas de las funciones
-void menuPrincipal(int *nroPedidos);
-void menuReportes();
-void recibirOpcion(int *pOp);
-
-void iniciarPreparacion(char *nombreArchivoPrep, Nodo **cabeza, int *nroPedidos, int *idMaximo);
-void iniciarProductos(Producto *h, Producto *s, char *nombreArchivoProd);
+void iniciar(char *nombreArchivoPrep, Nodo **cabeza, int *nroPedidos, int *idMaximo);
+void iniciarProductos(Producto *h, Producto *s, char *nombreArchivoProd, int modi);
+void salir(int totalProductosVendidos, float totalFacturado, char *nombreArchivoTotal);
 void reescribirPreparacion(Nodo **cabeza);
 
 Nodo *crearNodo(Item *entrada);
@@ -45,8 +42,6 @@ void entregarPedido(Nodo **cabeza, char *nombreArchivoEnt, int *nroPedidos, floa
 void reportes(Nodo **cabeza, char *nombreArchivoEnt);
 void listarEnPreparacion(Nodo **cabeza);
 void listarEntregados(char *nombreArchivoEnt);
-
-void salir(int totalProductosVendidos, float totalFacturado, char *nombreArchivoTotal);
 
 int main(){
     // creo las variables
@@ -70,13 +65,21 @@ int main(){
     float totalFacturado = 0.0;
 
     // inicializamos los productos y la lista de pedidos en preparacion
-    iniciarProductos(&h,&s,nombreArchivoProd);
-    iniciarPreparacion(nombreArchivoPrep,&cabeza,&nroPedidos,&idMaximo);
+    iniciarProductos(&h,&s,nombreArchivoProd,0);
+    iniciar(nombreArchivoPrep,&cabeza,&nroPedidos,&idMaximo);
 
     // menu de opciones
     do{
-        menuPrincipal(&nroPedidos);
-        recibirOpcion(&op);
+        system("cls");
+        printf("Hay %d PEDIDOS EN PREPARACION.\n\n",nroPedidos);
+        printf("------MENU PRINCIPAL------\n");
+        printf("\t1. AGREGAR PEDIDO\n");
+        printf("\t2. ENTREGAR PEDIDO\n");
+        printf("\t3. IMPRIMIR REPORTES\n");
+        printf("\t4. MODIFICAR PRODUCTOS\n");
+        printf("\t5. SALIR\n");
+        printf("\nIngrese OPCION: ");
+        scanf("%d",&op);
 
         switch(op){
             case 1:
@@ -89,7 +92,7 @@ int main(){
                 reportes(&cabeza, nombreArchivoEnt);
                 break;
             case 4:
-                //modificarPrecios(&h,&s);
+                iniciarProductos(&h,&s,nombreArchivoProd,1);
                 break;
             case 5:
                 salir(totalProductosVendidos,totalFacturado,nombreArchivoTotal);
@@ -104,51 +107,7 @@ int main(){
     return 0;
 }
 
-void menuPrincipal(int *nroPedido)
-{
-    /*
-    la funcion menuPrincipal se encarga de imprimir las opciones y la cantidad de pedidos en preparacion.
-    espera recibir un entero que almacena la cantidad de pedidos en preparacion y no retorna nada.
-    */
-    system("cls");
-    printf("Hay %d PEDIDOS EN PREPARACION.\n\n",*nroPedido);
-    printf("------MENU PRINCIPAL------\n");
-    printf("\t1. AGREGAR PEDIDO\n");
-    printf("\t2. ENTREGAR PEDIDO\n");
-    printf("\t3. IMPRIMIR REPORTES\n");
-    printf("\t4. MODIFICAR PRODUCTOS\n");
-    printf("\t5. SALIR\n");
-    return;
-}
-
-void menuReportes()
-{
-    /*
-    la funcion menuReportes se encarga de imprimir las opciones para los reportes
-    que se desean obtener.
-    no recibe ni devuelve parametros.
-    */
-    system("cls");
-    printf("------MENU REPORTES------\n");
-    printf("\t1. VER PEDIDOS EN PREPARACION\n");
-    printf("\t2. VER PEDIDOS ENTREGADOS\n");
-    printf("\t3. VOLVER AL MENNU PRINCIPAL\n");
-    return;
-}
-
-void recibirOpcion(int *pOp)
-{
-    /*
-    la funcion recibirOpcion se encarga de pedir y guardar una opcion
-    en un puntero a entero que espera recibir como parametro de entrada.
-    no retorna valores.
-    */
-    printf("\nIngrese OPCION: ");
-    scanf("%d",pOp);
-    return;
-}
-
-void iniciarPreparacion(char *nombreArchivoPrep, Nodo **cabeza, int *nroPedido, int *idMaximo){
+void iniciar(char *nombreArchivoPrep, Nodo **cabeza, int *nroPedido, int *idMaximo){
     /* La funcion es para inicializar la lista de pedidos en preparacion.
     Se ejecuta al inicio del programa.
     Espera recibir el nombre del archivo de pedidos en preparacion, el puntero doble al nodo cabeza,
@@ -159,24 +118,23 @@ void iniciarPreparacion(char *nombreArchivoPrep, Nodo **cabeza, int *nroPedido, 
     // creo un puntero a file para abrir el archivo en preparacion
     FILE *archivoPrep = NULL;
 
-    // creo una estructura pedido para leer el archivo
-    Pedido pedidoAux;
-
     // archivo en preparacion
     archivoPrep = fopen(nombreArchivoPrep,"rb");
 
     // si el archivo productos existe, entonces leo lo que hay adentro.
     if(archivoPrep != NULL){
-        while ( fread(&pedidoAux,sizeof(Pedido),1,archivoPrep) == 1 ){ // leo pedido por pedido y lo guardo en la estructura
-            // agrego el pedido al final de la lista
-            insertarFinal(cabeza,&pedidoAux);
-
+        while(!feof(archivoPrep)){// leo pedido por pedido y lo guardo en la estructura 
+            Pedido pedidoAux; //creo pedido auxiliar para guardar los datos    
+            size_t bytesRead = fread(&pedidoAux,sizeof(Pedido),1,archivoPrep);
+            if(bytesRead > 0){
+                // agrego el pedido al final de la lista
+                insertarFinal(cabeza,&pedidoAux);
+                // incremento el nroPedidos y guardo el id maximo
+                (*nroPedido)++;
+                *idMaximo = pedidoAux.idPedido;
+            }
             // tomo el \n
             fgetc(archivoPrep);
-
-            // incremento el nroPedidos y guardo el id maximo
-            (*nroPedido)++;
-            *idMaximo = pedidoAux.idPedido;
         }
     }
 
@@ -188,10 +146,11 @@ void iniciarPreparacion(char *nombreArchivoPrep, Nodo **cabeza, int *nroPedido, 
     return;
 }
 
-void iniciarProductos(Producto *h, Producto *s, char *nombreArchivoProd){
+void iniciarProductos(Producto *h, Producto *s, char *nombreArchivoProd, int modi){
     /* la funcion es para inicializar la informacion de los productos.
     espera recibir dos punteros a las estructuras de productos y el nombre del archivo productos.
-    no retorna valores.
+    no retorna valores. se pasa parametro modi para saber si se esta modificando o no los productos, si es 1 entonces se esta modificando.
+    si es 0 entonces se esta inicializando.
     */
 
     // creo puntero a file para el leer archivo productos
@@ -199,30 +158,20 @@ void iniciarProductos(Producto *h, Producto *s, char *nombreArchivoProd){
 
     // abro el archivo
     archivoProd = fopen(nombreArchivoProd, "rb");
-
-    if ( archivoProd != NULL ) // quiere decir que el archivo ya tiene las estructuras guardadas
-    {
-        // leo los datos en las estructuras
-        fread(h, sizeof(Producto), 1, archivoProd);
-        fgetc(archivoProd);
-        fread(s, sizeof(Producto), 1, archivoProd);
-    }
-
-    if (archivoProd == NULL) // quiere decir que no tenemos informacion de los productos, entonces tenemos que pedir los datos
-    {
-        fclose(archivoProd);
-
+    if (archivoProd == NULL || modi) {// quiere decir que no tenemos informacion de los productos, entonces tenemos que pedir los datos o que se quiere modificar
         system("cls");
-        printf("------INICIALIZANDO PRODUCTOS------\n\n");
+        if(modi){ //muestra mensaje correspondiente a si se esta modificando o inicializando
+            printf("------MODIFICANDO PRODUCTOS------\n\n");
+        }else{
+            printf("------INICIALIZANDO PRODUCTOS------\n\n");
+        }
 
         // pido los datos de las hamburguesas
         h->idProducto = 101;
         strcpy(h->nombreProducto, "Hamburguesa");
         printf("Ingrese PRECIO UNITARIO de las HAMBURGUESAS: ");
         scanf("%f",&(h->precioProducto));
-
-        while ( h->precioProducto < 0.0 ) // valido que sea mayor a cero
-        {
+        while( h->precioProducto < 0.0 ){ // valido que sea mayor a cero
             printf("\nERROR. PRECIO INVALIDO\n");
             printf("\nIngrese PRECIO UNITARIO de las HAMBURGUESAS: ");
             scanf("%f",&(h->precioProducto));
@@ -233,38 +182,38 @@ void iniciarProductos(Producto *h, Producto *s, char *nombreArchivoProd){
         strcpy(s->nombreProducto, "Salchicha");
         printf("\n\nIngrese PRECIO UNITARIO de las SALCHICHAS: ");
         scanf("%f",&(s->precioProducto));
-
-        while ( s->precioProducto < 0.0 ) // valido que sea mayor a cero
-        {
+        while( s->precioProducto < 0.0 ){// valido que sea mayor a cero
             printf("\nERROR. PRECIO INVALIDO\n");
             printf("\nIngrese PRECIO UNITARIO de las HAMBURGUESAS: ");
             scanf("%f",&(s->precioProducto));
         }
 
-        // abro el archivo productos para guardar los datos
-        archivoProd = fopen(nombreArchivoProd, "wb"); // abro el archivo para guardar los datos
-
-        if ( archivoProd == NULL )
-        {
+        archivoProd = fopen(nombreArchivoProd, "wb");// abro el archivo productos para guardar los datos
+        if(archivoProd == NULL){
             printf("\n\nERROR AL CREAR ARCHIVO PRODUCTOS\n\n");
             system("pause");
             return;
         }
-
-        else
-        {
-            // guardo las estructuras en el archivo
-            fwrite(h, sizeof(Producto), 1, archivoProd);
-            fputc('\n', archivoProd);
-            fwrite(s, sizeof(Producto), 1, archivoProd);
-            fputc('\n', archivoProd);
-
-        }
-        fclose(archivoProd);
-
-        printf("\n\n------PRODUCTOS CARGADOS CORRECTAMENTE------\n\n");
-        system("Pause");
+        // guardo las estructuras en el archivo
+        fwrite(h, sizeof(Producto), 1, archivoProd);
+        fputc('\n', archivoProd);
+        fwrite(s, sizeof(Producto), 1, archivoProd);
+        fputc('\n', archivoProd);  
     }
+    else{// quiere decir que el archivo ya tiene las estructuras guardadas
+        // leo los datos en las estructuras
+        fread(h, sizeof(Producto), 1, archivoProd);
+        fgetc(archivoProd);
+        fread(s, sizeof(Producto), 1, archivoProd);
+    }
+
+    fclose(archivoProd);
+    if(modi){//muestra mensaje correspondiente a si se modifico o se inicializo
+        printf("\n\n------PRODUCTOS MODIFICADOS CORRECTAMENTE------\n\n");
+    }else{
+        printf("\n\n------PRODUCTOS CARGADOS CORRECTAMENTE------\n\n");
+    }
+    system("Pause");
     return;
 }
 
@@ -312,7 +261,7 @@ Nodo *crearNodo(Item *entrada){
     nuevo = (Nodo *)calloc(1,sizeof(Nodo));
 
     // valido que haya memoria
-    if (nuevo == NULL){
+    if(nuevo == NULL){
         printf("\n\nERROR DE MEMORIA\n\n");
         system("pause");
         return NULL;
@@ -339,13 +288,13 @@ void insertarFinal(Nodo **cabeza, Item *entrada){
     // creo puntero a nodo para recorrer la lista.
     Nodo *actual = NULL;
 
-    if (*cabeza == NULL){
+    if(*cabeza == NULL){
         // si el nodo cabeza es null, entonces hay que crear un nodo e insertarlo en la cabeza.
         *cabeza = crearNodo(entrada); // llamada al la funcion crear nodo y lo pongo en cabeza
-    }else{
+    }
+    else{
         // si el nodo cabeza no es null, entonces hay que encontrar el ultimo nodo
         actual = *cabeza;
-
         // recorro la lista hasta encontrarlo
         while (actual->siguiente != NULL){
             actual = actual->siguiente;
@@ -387,15 +336,14 @@ void agregarPedido(Nodo **cabeza, Producto *h, Producto *s, int *nroPedidos, cha
     }
 
     // incremento el id maximo y lo asigno al id del pedido a agregar. despues lo imprimo
-    *idMaximo = *idMaximo + 1;
+    (*idMaximo)++;
     entrada->idPedido = *idMaximo;
     printf("\nID PEDIDO: %d\n",entrada->idPedido);
 
     // pido que ingrese la cantidad de hamburguesas
     printf("\nIngrese CANTIDAD de HAMBURGUESAS: ");
     scanf("%d",&(entrada->cantHamburguesas));
-
-    while ( entrada->cantHamburguesas < 0 ){
+    while ( entrada->cantHamburguesas < 0 ){ //valido que la cantidad sea mayor 0
         printf("\nERROR. CANTIDAD INVALIDA. Reingrese CANTIDAD de HAMBURGUESAS: ");
         scanf("%d",&(entrada->cantHamburguesas));
     }
@@ -403,8 +351,7 @@ void agregarPedido(Nodo **cabeza, Producto *h, Producto *s, int *nroPedidos, cha
     // pido que ingrese la cantidad de salchichas
     printf("\nIngrese CANTIDAD de SALCHICHAS: ");
     scanf("%d",&(entrada->cantSalchichas));
-
-    while ( entrada->cantSalchichas < 0 ){
+    while ( entrada->cantSalchichas < 0 ){//valido que la cantidad sea mayor 0
         printf("\nERROR. CANTIDAD INVALIDA. Reingrese CANTIDAD de SALCHICHAS: ");
         scanf("%d",&(entrada->cantSalchichas));
     }
@@ -420,7 +367,6 @@ void agregarPedido(Nodo **cabeza, Producto *h, Producto *s, int *nroPedidos, cha
 
     // abro el archivo en preparacion
     archivoPrep = fopen(nombreArchivoPrep,"ab");
-
     // valido que se haya abierto el archivo
     if(archivoPrep == NULL){
         printf("ERROR AL ABRIR ARCHIVO 'enPreparacion'.");
@@ -559,8 +505,13 @@ void reportes(Nodo **cabeza, char *nombreArchivoEnt)
     // menu de opciones
     do
     {
-        menuReportes();
-        recibirOpcion(&sOp);
+        system("cls");
+        printf("------MENU REPORTES------\n");
+        printf("\t1. VER PEDIDOS EN PREPARACION\n");
+        printf("\t2. VER PEDIDOS ENTREGADOS\n");
+        printf("\t3. VOLVER AL MENNU PRINCIPAL\n");
+        printf("\nIngrese OPCION: ");
+        scanf("%d",&sOp);
 
         switch(sOp)
         {
