@@ -406,7 +406,7 @@ void entregarPedido(Nodo **cabeza, char *nombreArchivoEnt, int *nroPedidos,float
     Nodo *actual = NULL , *auxiliar = NULL;
 
     // creo punteros a file de entregados y en preparacion.
-    FILE *archivoEnt = NULL, *archivoPrep = NULL;
+    FILE *archivoEnt = NULL;
 
     system("cls");
     printf("------ENTREGAR PEDIDO------\n");
@@ -466,7 +466,6 @@ void entregarPedido(Nodo **cabeza, char *nombreArchivoEnt, int *nroPedidos,float
         fputc('\n',archivoEnt);
         fclose(archivoEnt);
 
-        //green();
         printf("\n\n------PEDIDO %d ENTREGADO CORRECTAMENTE------\n\n",auxiliar->datos.idPedido);
 
         // reescribir archivo preparacion
@@ -484,11 +483,9 @@ void entregarPedido(Nodo **cabeza, char *nombreArchivoEnt, int *nroPedidos,float
     }
     else // si no lo encontre mando mensaje de error
     {
-        //red();
         printf("\n\nNO HUBO COINCIDENCIAS\n\n");
     }
 
-    //reset();
     system("pause");
     return;
 }
@@ -636,25 +633,27 @@ void salir(int totalProductosVendidos, float totalFacturado, char *nombreArchivo
     time(&t);
     timeinfo = localtime(&t);
 
-    FILE *archivo = NULL;
+    FILE *archivoLog = NULL;
 
-    archivo = fopen(nombreArchivoTotal,"a");
+    archivoLog = fopen(nombreArchivoTotal,"a");
 
-    if ( archivo != NULL )
+    if ( archivoLog != NULL )
     {
-        if ( totalProductosVendidos == 0 ){
-            fprintf(archivo,"Hora: %02d:%02d:%02d\n", timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
-            fprintf(archivo,"--------------------------------\n");
-            fprintf(archivo,"No se vendio ningun producto\n\n");
+        if ( totalProductosVendidos == 0 ){ // si no se vendio ningun producto, imprimo el mensaje correspondiente
+            // imprimo la fecha y hora del cierre
+            fprintf(archivoLog,"Hora: %02d:%02d:%02d\n", timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
+            fprintf(archivoLog,"--------------------------------\n");
+            fprintf(archivoLog,"No se vendio ningun producto\n\n");
         }
         else {
-        fprintf(archivo,"Hora: %02d:%02d:%02d\n", timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
-        fprintf(archivo,"--------------------------------\n");
-        fprintf(archivo, "Cantidad de productos vendidos: %d\n", totalProductosVendidos);
-        fprintf(archivo, "Cantidad de dinero facturado: %.2f\n\n", totalFacturado);
+            // imprimo la fecha y hora del cierre
+            fprintf(archivoLog,"Hora: %02d:%02d:%02d\n", timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
+            fprintf(archivoLog,"--------------------------------\n");
+            fprintf(archivoLog, "Cantidad de productos vendidos: %d\n", totalProductosVendidos);
+            fprintf(archivoLog, "Cantidad de dinero facturado: %.2f\n\n", totalFacturado);
         }
     }
 
-    fclose(archivo);
-
+    fclose(archivoLog);
+    return;
 }
