@@ -1,0 +1,17 @@
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\bin\Debug\net8.0-windows\EjercicioDados.exe
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\bin\Debug\net8.0-windows\EjercicioDados.deps.json
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\bin\Debug\net8.0-windows\EjercicioDados.runtimeconfig.json
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\bin\Debug\net8.0-windows\EjercicioDados.dll
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\bin\Debug\net8.0-windows\EjercicioDados.pdb
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.Form1.resources
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.csproj.GenerateResource.cache
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.AssemblyInfoInputs.cache
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.AssemblyInfo.cs
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.csproj.CoreCompileInputs.cache
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.sourcelink.json
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.dll
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\refint\EjercicioDados.dll
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.pdb
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\EjercicioDados.genruntimeconfig.cache
+C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\Programacion2\EjercicioDados\obj\Debug\net8.0-windows\ref\EjercicioDados.dll
