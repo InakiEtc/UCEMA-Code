@@ -1,0 +1,17 @@
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.Form1.resources
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.csproj.GenerateResource.cache
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.AssemblyInfoInputs.cache
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.AssemblyInfo.cs
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.csproj.CoreCompileInputs.cache
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.sourcelink.json
+D:\UCEMA\Programacion2\ListaDeAlumnos\bin\Debug\net8.0-windows\ListaDeAlumnos.exe
+D:\UCEMA\Programacion2\ListaDeAlumnos\bin\Debug\net8.0-windows\ListaDeAlumnos.deps.json
+D:\UCEMA\Programacion2\ListaDeAlumnos\bin\Debug\net8.0-windows\ListaDeAlumnos.runtimeconfig.json
+D:\UCEMA\Programacion2\ListaDeAlumnos\bin\Debug\net8.0-windows\ListaDeAlumnos.dll
+D:\UCEMA\Programacion2\ListaDeAlumnos\bin\Debug\net8.0-windows\ListaDeAlumnos.pdb
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.dll
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\refint\ListaDeAlumnos.dll
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.pdb
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.genruntimeconfig.cache
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ref\ListaDeAlumnos.dll

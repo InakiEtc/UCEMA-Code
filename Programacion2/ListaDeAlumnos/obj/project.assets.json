@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UCEMA\\Programacion2\\EjercicioDados\\EjercicioDados.csproj",
-      "projectName": "EjercicioDados",
-      "projectPath": "D:\\UCEMA\\Programacion2\\EjercicioDados\\EjercicioDados.csproj",
+      "projectUniqueName": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
+      "projectName": "ListaDeAlumnos",
+      "projectPath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
       "packagesPath": "C:\\Users\\Inaki\\.nuget\\packages\\",
-      "outputPath": "D:\\UCEMA\\Programacion2\\EjercicioDados\\obj\\",
+      "outputPath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

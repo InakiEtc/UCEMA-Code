@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioDados", "EjercicioDados\EjercicioDados.csproj", "{CAF6A382-1BE4-48C5-9B6B-DAA4DA0D1ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioDados", "EjercicioDados\EjercicioDados.csproj", "{CAF6A382-1BE4-48C5-9B6B-DAA4DA0D1ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeAlumnos", "ListaDeAlumnos\ListaDeAlumnos.csproj", "{CF37AA87-B1D1-49F6-86EF-689B64E79363}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CAF6A382-1BE4-48C5-9B6B-DAA4DA0D1ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF6A382-1BE4-48C5-9B6B-DAA4DA0D1ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAF6A382-1BE4-48C5-9B6B-DAA4DA0D1ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF37AA87-B1D1-49F6-86EF-689B64E79363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF37AA87-B1D1-49F6-86EF-689B64E79363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF37AA87-B1D1-49F6-86EF-689B64E79363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF37AA87-B1D1-49F6-86EF-689B64E79363}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
