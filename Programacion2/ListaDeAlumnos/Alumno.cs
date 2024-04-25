@@ -15,12 +15,15 @@ namespace ListaDeAlumnos
             Apellido = apellido;
             FechaNacimiento = fechaNacimiento;
             FechaIngreso = fechaIngreso;
-            Edad = DateTime.Now.Year - fechaNacimiento.Year;
             Activo = true;
             CantMateriasAprobadas = cantMateriasAprobadas;
         }
         public Alumno()
         {           
+        }
+        ~Alumno()
+        {
+            MessageBox.Show($"El alumno {Legajo} - {Nombre} {Apellido} ha sido eliminado.");
         }
 
         public int Legajo { get; set; }
@@ -28,7 +31,9 @@ namespace ListaDeAlumnos
         public string Apellido { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public DateTime FechaIngreso { get; set; }
-        public readonly int Edad;
+        public int Edad {
+            get { return DateTime.Now.Year - FechaNacimiento.Year; }
+        }
         public bool Activo { get; set; }
         public int CantMateriasAprobadas { get; set; }
 
@@ -39,9 +44,9 @@ namespace ListaDeAlumnos
             switch (unidad.ToLower())
             {
                 case "a":
-                    return antiguedad.Days / 365;
+                    return (antiguedad.Days / 365);
                 case "m":
-                    return antiguedad.Days / 30;
+                    return (antiguedad.Days / 30);
                 case "d":
                     return antiguedad.Days;
                 default:

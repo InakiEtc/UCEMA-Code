@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ListaDeAlumnos
+﻿namespace ListaDeAlumnos
 {
     internal class ListadoAlumnos
     {
@@ -44,6 +38,15 @@ namespace ListaDeAlumnos
         public bool VerificarLegajo(Alumno pAlumno)
         {
             return alumnos.Exists(a => a.Legajo == pAlumno.Legajo);
-    }
+        }
+        public List<Alumno> ListarAlumnos()
+        {
+            List<Alumno> alumnosAux = new List<Alumno>();
+            foreach (var alumno in alumnos)
+            {
+                alumnosAux.Add(new Alumno { Legajo = alumno.Legajo, Nombre = alumno.Nombre, Apellido = alumno.Apellido, FechaNacimiento = alumno.FechaNacimiento, FechaIngreso = alumno.FechaIngreso, Activo = alumno.Activo, CantMateriasAprobadas = alumno.CantMateriasAprobadas });
+            }
+            return alumnos;
+        }
     }
 }

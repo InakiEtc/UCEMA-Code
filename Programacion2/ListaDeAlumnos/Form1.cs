@@ -13,6 +13,8 @@ namespace ListaDeAlumnos
             la = new ListadoAlumnos();
         }
         ListadoAlumnos la;
+        string tipoAntiguedad = "a";
+        //ver si se puede agregar datetimepicker tipo modals
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -31,24 +33,10 @@ namespace ListaDeAlumnos
                 if (cantMateriasAprobadas < 0 || cantMateriasAprobadas > 36) throw new Exception("Debe ingresar una cantidad de materias aprobadas valida");
 
                 Alumno a = new Alumno(legajo, nombre, apellido, fechaNacimiento, fechaIngreso, cantMateriasAprobadas);
-                //error edad cuando se agrega a la
                 la.AgregarAlumno(a);
-                var listaParaMostrar = la.alumnos.Select(alumno => new
-                {
-                    Legajo = alumno.Legajo,
-                    Nombre = alumno.Nombre,
-                    Apellido = alumno.Apellido,
-                    Edad = alumno.Edad,
-                    FechaNacimiento = alumno.FechaNacimiento,
-                    FechaIngreso = alumno.FechaIngreso,
-                    Activo = alumno.Activo,
-                    CantMateriasAprobadas = alumno.CantMateriasAprobadas
-                }).ToList();
-
-                dataGridView1.DataSource = listaParaMostrar;
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = la.ListarAlumnos();
                 dataGridView1.Refresh();
-
-
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -65,11 +53,83 @@ namespace ListaDeAlumnos
             {
                 if (dataGridView1.Rows.Count > 0)
                 {
-                    la.BorrarAlumno(dataGridView1.SelectedRows[0].DataBoundItem as Alumno);                    
+                    la.BorrarAlumno(dataGridView1.SelectedRows[0].DataBoundItem as Alumno);
+                    dataGridView1.DataSource = null;
+                    dataGridView1.DataSource = la.ListarAlumnos();
+                    dataGridView1.Refresh();
+                    dataGridView1_SelectionChanged(null, null);
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dataGridView1.Rows.Count > 0)
+                {
+                    var alumno = dataGridView1.SelectedRows[0].DataBoundItem as Alumno;
+                    alumno.Nombre = Interaction.InputBox("Ingrese nombre del alumno", "Modificando Nombre", alumno.Nombre);
+                    alumno.Apellido = Interaction.InputBox("Ingrese apellido del alumno", "Modificando Apellido", alumno.Apellido);
+                    alumno.FechaNacimiento = DateTime.Parse(Interaction.InputBox("Ingrese fecha de nacimiento del alumno", "Modificando Fecha de Nacimiento", alumno.FechaNacimiento.ToString()));
+                    alumno.FechaIngreso = DateTime.Parse(Interaction.InputBox("Ingrese fecha de ingreso del alumno", "Modificando Fecha de Ingreso", alumno.FechaIngreso.ToString()));
+                    alumno.Activo = bool.Parse(Interaction.InputBox("Ingrese si el alumno esta activo", "Modificando Activo", alumno.Activo.ToString()));
+                    alumno.CantMateriasAprobadas = int.Parse(Interaction.InputBox("Ingrese cantidad de materias aprobadas del alumno", "Modificando Cantidad de Materias Aprobadas", alumno.CantMateriasAprobadas.ToString()));
+
+                    la.ModificarAlumno(alumno);
+                    dataGridView1.DataSource = null;
+                    dataGridView1.DataSource = la.ListarAlumnos();
                     dataGridView1.Refresh();
                 }
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dataGridView1.Rows.Count > 0)
+                {
+
+                    var alumno = dataGridView1.SelectedRows[0].DataBoundItem as Alumno;
+                    textBox1.Text = alumno.CalcularAntiguedad(tipoAntiguedad).ToString();
+                    textBox2.Text = alumno.GetMateriasNoAprobadas().ToString();
+                    textBox3.Text = alumno.GetEdadDeIngreso().ToString();
+                }
+                else
+                {
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                }
+            }
+            catch (Exception ex) { }
+        }
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                tipoAntiguedad = "a";
+            }
+            dataGridView1_SelectionChanged(null, null);
+        }
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked)
+            {
+                tipoAntiguedad = "m";
+            }
+            dataGridView1_SelectionChanged(null, null);
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked)
+            {
+                tipoAntiguedad = "d";
+            }
+            dataGridView1_SelectionChanged(null, null);
         }
     }
 }

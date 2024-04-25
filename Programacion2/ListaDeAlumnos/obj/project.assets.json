@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Inaki\\.nuget\\packages\\": {},
+    "C:\\Users\\inaki\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
+      "projectUniqueName": "C:\\Users\\inaki\\OneDrive\\Documentos\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
       "projectName": "ListaDeAlumnos",
-      "projectPath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
-      "packagesPath": "C:\\Users\\Inaki\\.nuget\\packages\\",
-      "outputPath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\obj\\",
+      "projectPath": "C:\\Users\\inaki\\OneDrive\\Documentos\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
+      "packagesPath": "C:\\Users\\inaki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\inaki\\OneDrive\\Documentos\\UCEMA\\Programacion2\\ListaDeAlumnos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Inaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\inaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -74,7 +74,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

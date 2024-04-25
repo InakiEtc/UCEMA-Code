@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Inaki\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Inaki\\.nuget\\packages",
+      "C:\\Users\\inaki\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\inaki\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
