@@ -32,3 +32,4 @@ C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\
 C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.pdb
 C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.genruntimeconfig.cache
 C:\Users\inaki\OneDrive\Documentos\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ref\ListaDeAlumnos.dll
+D:\UCEMA\Programacion2\ListaDeAlumnos\obj\Debug\net8.0-windows\ListaDeAlumnos.SelectDateForm.resources

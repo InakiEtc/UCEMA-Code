@@ -1,12 +1,11 @@
 using System.Windows.Forms;
-using System.Linq;
+using System;
 using Microsoft.VisualBasic;
 
 namespace ListaDeAlumnos
 {
     public partial class Form1 : Form
     {
-
         public Form1()
         {
             InitializeComponent();
@@ -14,7 +13,6 @@ namespace ListaDeAlumnos
         }
         ListadoAlumnos la;
         string tipoAntiguedad = "a";
-        //ver si se puede agregar datetimepicker tipo modals
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -26,8 +24,27 @@ namespace ListaDeAlumnos
                 if (nombre == "") throw new Exception("Debe ingresar un nombre");
                 string apellido = Interaction.InputBox("Ingrese apellido del alumno", "Apellido");
                 if (apellido == "") throw new Exception("Debe ingresar un apellido");
-                DateTime fechaNacimiento = DateTime.Parse(Interaction.InputBox("Ingrese fecha de nacimiento del alumno", "Fecha de Nacimiento"));
-                DateTime fechaIngreso = DateTime.Parse(Interaction.InputBox("Ingrese fecha de ingreso del alumno", "Fecha de Ingreso"));
+
+                DateTime fechaNacimiento = DateTime.Now;
+                using (SelectDateForm selectDateForm = new SelectDateForm(fechaNacimiento))
+                {
+                    selectDateForm.Text = "Fecha de Nacimiento";
+                    if (selectDateForm.ShowDialog() == DialogResult.OK)
+                    {
+                        fechaNacimiento = selectDateForm.SelectedDate;
+                    }
+                }
+
+                DateTime fechaIngreso = DateTime.Now;
+                using (SelectDateForm selectDateForm = new SelectDateForm(fechaIngreso))
+                {
+                    selectDateForm.Text = "Fecha de Ingreso";
+                    if (selectDateForm.ShowDialog() == DialogResult.OK)
+                    {
+                        fechaIngreso = selectDateForm.SelectedDate;
+                    }
+                }   
+                
                 if (fechaIngreso < fechaNacimiento) throw new Exception("La fecha de ingreso no puede ser menor a la fecha de nacimiento");
                 int cantMateriasAprobadas = int.Parse(Interaction.InputBox("Ingrese cantidad de materias aprobadas del alumno", "Cantidad de Materias Aprobadas"));
                 if (cantMateriasAprobadas < 0 || cantMateriasAprobadas > 36) throw new Exception("Debe ingresar una cantidad de materias aprobadas valida");
@@ -72,9 +89,33 @@ namespace ListaDeAlumnos
                     var alumno = dataGridView1.SelectedRows[0].DataBoundItem as Alumno;
                     alumno.Nombre = Interaction.InputBox("Ingrese nombre del alumno", "Modificando Nombre", alumno.Nombre);
                     alumno.Apellido = Interaction.InputBox("Ingrese apellido del alumno", "Modificando Apellido", alumno.Apellido);
-                    alumno.FechaNacimiento = DateTime.Parse(Interaction.InputBox("Ingrese fecha de nacimiento del alumno", "Modificando Fecha de Nacimiento", alumno.FechaNacimiento.ToString()));
-                    alumno.FechaIngreso = DateTime.Parse(Interaction.InputBox("Ingrese fecha de ingreso del alumno", "Modificando Fecha de Ingreso", alumno.FechaIngreso.ToString()));
-                    alumno.Activo = bool.Parse(Interaction.InputBox("Ingrese si el alumno esta activo", "Modificando Activo", alumno.Activo.ToString()));
+
+                    using (SelectDateForm selectDateForm = new SelectDateForm(alumno.FechaNacimiento))
+                    {
+                        selectDateForm.Text = "Fecha de Nacimiento";                        
+                        if (selectDateForm.ShowDialog() == DialogResult.OK)
+                        {                                        
+                            alumno.FechaNacimiento = selectDateForm.SelectedDate;
+                        }
+                    }
+
+                    using (SelectDateForm selectDateForm = new SelectDateForm(alumno.FechaIngreso))
+                    {
+                        selectDateForm.Text = "Fecha de Ingreso";
+                        
+                        if (selectDateForm.ShowDialog() == DialogResult.OK)
+                        {
+                            alumno.FechaIngreso = selectDateForm.SelectedDate;
+                        }
+                    }                                                             
+                    string activo = Interaction.InputBox("Activo? Si / No", "Modificando Activo", alumno.Activo ? "Si" : "No");
+                    if (activo.ToLower() == "si" || activo.ToLower() == "no")
+                    {
+                        if (activo.ToLower() == "si") alumno.Activo = true;
+                        else alumno.Activo = false;
+                    }
+                    else { throw new Exception("Debe ingresar si o no"); }
+
                     alumno.CantMateriasAprobadas = int.Parse(Interaction.InputBox("Ingrese cantidad de materias aprobadas del alumno", "Modificando Cantidad de Materias Aprobadas", alumno.CantMateriasAprobadas.ToString()));
 
                     la.ModificarAlumno(alumno);
