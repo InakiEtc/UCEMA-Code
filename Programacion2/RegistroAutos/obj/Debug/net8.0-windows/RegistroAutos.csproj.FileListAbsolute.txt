@@ -1,0 +1,17 @@
+D:\UCEMA\Programacion2\RegistroAutos\bin\Debug\net8.0-windows\RegistroAutos.exe
+D:\UCEMA\Programacion2\RegistroAutos\bin\Debug\net8.0-windows\RegistroAutos.deps.json
+D:\UCEMA\Programacion2\RegistroAutos\bin\Debug\net8.0-windows\RegistroAutos.runtimeconfig.json
+D:\UCEMA\Programacion2\RegistroAutos\bin\Debug\net8.0-windows\RegistroAutos.dll
+D:\UCEMA\Programacion2\RegistroAutos\bin\Debug\net8.0-windows\RegistroAutos.pdb
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.Form1.resources
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.csproj.GenerateResource.cache
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.AssemblyInfoInputs.cache
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.AssemblyInfo.cs
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.csproj.CoreCompileInputs.cache
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.sourcelink.json
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.dll
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\refint\RegistroAutos.dll
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.pdb
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\RegistroAutos.genruntimeconfig.cache
+D:\UCEMA\Programacion2\RegistroAutos\obj\Debug\net8.0-windows\ref\RegistroAutos.dll
