@@ -1,0 +1,17 @@
+D:\UCEMA\Programacion2\ClientesVentas\bin\Debug\net8.0-windows\ClientesVentas.exe
+D:\UCEMA\Programacion2\ClientesVentas\bin\Debug\net8.0-windows\ClientesVentas.deps.json
+D:\UCEMA\Programacion2\ClientesVentas\bin\Debug\net8.0-windows\ClientesVentas.runtimeconfig.json
+D:\UCEMA\Programacion2\ClientesVentas\bin\Debug\net8.0-windows\ClientesVentas.dll
+D:\UCEMA\Programacion2\ClientesVentas\bin\Debug\net8.0-windows\ClientesVentas.pdb
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.Form1.resources
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.csproj.GenerateResource.cache
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.AssemblyInfoInputs.cache
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.AssemblyInfo.cs
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.csproj.CoreCompileInputs.cache
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.sourcelink.json
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.dll
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\refint\ClientesVentas.dll
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.pdb
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ClientesVentas.genruntimeconfig.cache
+D:\UCEMA\Programacion2\ClientesVentas\obj\Debug\net8.0-windows\ref\ClientesVentas.dll

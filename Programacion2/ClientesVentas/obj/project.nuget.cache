@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kKc0AkV7thcpc1tHgrbCT4HoyHBVYVLGK1u6R0OLWxQGBAy28elySvFi7d0/XRqIgwN+rAYaCy7u+ARLnb2yjg==",
+  "dgSpecHash": "d8YLrtJ75Ca47mqjJZYS6qLva+pZ3MwL2ejxM+9GuUD0B5EiZZu4Prp8P1RTZaOx2HGn/ozCfcuUerYYUO5fgw==",
   "success": true,
-  "projectFilePath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
+  "projectFilePath": "D:\\UCEMA\\Programacion2\\ClientesVentas\\ClientesVentas.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RegistroAutos")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ClientesVentas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+422c526ccbad69c2d97bcef19f9f0ed66ea20946")]
-[assembly: System.Reflection.AssemblyProductAttribute("RegistroAutos")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RegistroAutos")]
+[assembly: System.Reflection.AssemblyProductAttribute("ClientesVentas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ClientesVentas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

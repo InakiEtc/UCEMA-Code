@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj": {}
+    "D:\\UCEMA\\Programacion2\\ClientesVentas\\ClientesVentas.csproj": {}
   },
   "projects": {
-    "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj": {
+    "D:\\UCEMA\\Programacion2\\ClientesVentas\\ClientesVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
-        "projectName": "ListaDeAlumnos",
-        "projectPath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\ListaDeAlumnos.csproj",
+        "projectUniqueName": "D:\\UCEMA\\Programacion2\\ClientesVentas\\ClientesVentas.csproj",
+        "projectName": "ClientesVentas",
+        "projectPath": "D:\\UCEMA\\Programacion2\\ClientesVentas\\ClientesVentas.csproj",
         "packagesPath": "C:\\Users\\Inaki\\.nuget\\packages\\",
-        "outputPath": "D:\\UCEMA\\Programacion2\\ListaDeAlumnos\\obj\\",
+        "outputPath": "D:\\UCEMA\\Programacion2\\ClientesVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

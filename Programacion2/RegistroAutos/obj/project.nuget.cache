@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "foltvvwgmE7kcGC5PXv9jlcgqEQk2wKmB/d1qzAsP2rFNrMWoOIigWmr5GfYe+GnwH+eqi5T7NtdkGberjmEfw==",
+  "dgSpecHash": "tZX6kpwFj30Xhu40ARSwJhN/jDJVaYbuP1GNmAwD8Prrev1aMWKA794MEp1fse8XMxlfwb52qAUXbv9dxyKw0Q==",
   "success": true,
   "projectFilePath": "D:\\UCEMA\\Programacion2\\RegistroAutos\\RegistroAutos.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Está ejecutando la operación \"restore\" con un origen \"HTTP\", \"http://154.154.154.13:8081/repository/Pines_Nugets/\". El acceso que no sea HTTPS se quitará en una versión futura. Considere la posibilidad de migrar a un origen \"HTTPS\"."
+    }
+  ]
 }
