@@ -157,7 +157,7 @@ namespace Parcial2Ejemplo
                 if (dataGridView1.SelectedRows[0].Cells[5].Value != "---")
                 {
                     _legajo = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value);
-                    _perr = vet.RetornarRaza().Find(x => x.Legajo == _legajo);                    
+                    _perr = vet.RetornarRaza().Find(x => x.Legajo == _legajo);
                 }
                 else
                 {
@@ -233,7 +233,7 @@ namespace Parcial2Ejemplo
                 if (dataGridView1.SelectedRows[0].Cells[5].Value != "---")
                 {
                     _legajo = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value);
-                    PerroRaza _perr = vet.RetornarRaza().Find(x => x.Legajo == _legajo);                    
+                    PerroRaza _perr = vet.RetornarRaza().Find(x => x.Legajo == _legajo);
                     vet.BorrarRaza(_perr);
                 }
                 else
@@ -258,6 +258,36 @@ namespace Parcial2Ejemplo
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.Rows.Count == 0)
+                throw new Exception("No hay perros para ordernar");
+
+            if (button4.Text == "Asc")
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = vet.RetornarAscendente();
+                button4.Text = "Desc";
+            }
+            else
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = vet.RetornarDescendente();
+                button4.Text = "Asc";
+            }
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var legajo = Interaction.InputBox("Ingrese el legajo que desea buscar: ", "Buscando por Legajo");
+                if (!Information.IsNumeric(legajo)) throw new Exception("Debe ser numerico..");
+
+                var perroaux = vet.RetornaPerroLegajo(Convert.ToInt32(legajo));
+                MessageBox.Show(perroaux.ToString(), "Busqueda de legajo");
+            }
+            catch (Exception) { }
         }
     }
 }
