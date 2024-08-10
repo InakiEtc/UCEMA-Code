@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\UCEMA\\Programacion2\\Parcial2Ejemplo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2CE54F8-BC70-4DA1-94D8-E7F3597CEFC0}|Parcial2Ejemplo.csproj|d:\\ucema\\programacion2\\parcial2ejemplo\\veterinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2CE54F8-BC70-4DA1-94D8-E7F3597CEFC0}|Parcial2Ejemplo.csproj|solutionrelative:veterinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2CE54F8-BC70-4DA1-94D8-E7F3597CEFC0}|Parcial2Ejemplo.csproj|d:\\ucema\\programacion2\\parcial2ejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2CE54F8-BC70-4DA1-94D8-E7F3597CEFC0}|Parcial2Ejemplo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2CE54F8-BC70-4DA1-94D8-E7F3597CEFC0}|Parcial2Ejemplo.csproj|d:\\ucema\\programacion2\\parcial2ejemplo\\veterinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2CE54F8-BC70-4DA1-94D8-E7F3597CEFC0}|Parcial2Ejemplo.csproj|solutionrelative:veterinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 70,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,28 +46,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Veterinario.cs",
               "DocumentMoniker": "D:\\UCEMA\\Programacion2\\Parcial2Ejemplo\\Veterinario.cs",
               "RelativeDocumentMoniker": "Veterinario.cs",
               "ToolTip": "D:\\UCEMA\\Programacion2\\Parcial2Ejemplo\\Veterinario.cs",
               "RelativeToolTip": "Veterinario.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAswH0AAAAtAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAowIcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T04:59:49.528Z",
+              "WhenOpened": "2024-07-17T19:06:56.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\UCEMA\\Programacion2\\Parcial2Ejemplo\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\UCEMA\\Programacion2\\Parcial2Ejemplo\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wJMAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4BAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T04:59:28.691Z"
+              "WhenOpened": "2024-07-17T19:06:55.754Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -11,7 +11,7 @@ namespace Parcial2Ejemplo
         SqlCommandBuilder cb;
         DataSet ds;
         DataTable dt_p;
-        string strconn = "Data Source=DESKTOP-Q88V9OO\\SQLEXPRESS;Initial Catalog=Parcial2Ejemplo;Integrated Security=True;Trust Server Certificate=True";
+        string strconn = "Data Source=DESKTOP-Q88V9OO\\SQLEXPRESS;Initial Catalog=UCEMA;Integrated Security=True;Trust Server Certificate=True";
         Veterinario vet;
 
         private void buildCommands(SqlDataAdapter pAdapter)
