@@ -1,0 +1,17 @@
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\bin\Debug\net8.0-windows\Ejercicio6.exe
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\bin\Debug\net8.0-windows\Ejercicio6.deps.json
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\bin\Debug\net8.0-windows\Ejercicio6.runtimeconfig.json
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\bin\Debug\net8.0-windows\Ejercicio6.dll
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\bin\Debug\net8.0-windows\Ejercicio6.pdb
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.Form1.resources
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.csproj.GenerateResource.cache
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.AssemblyInfoInputs.cache
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.AssemblyInfo.cs
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.csproj.CoreCompileInputs.cache
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.sourcelink.json
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.dll
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\refint\Ejercicio6.dll
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.pdb
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\Ejercicio6.genruntimeconfig.cache
+D:\UCEMA\Algoritmos&Estructuras\TP1\TP1-Algo&DF\Ejercicio6\obj\Debug\net8.0-windows\ref\Ejercicio6.dll
