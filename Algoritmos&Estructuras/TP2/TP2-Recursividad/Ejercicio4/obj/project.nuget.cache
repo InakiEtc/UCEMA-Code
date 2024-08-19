@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sb6SOvCFtX8=",
+  "success": true,
+  "projectFilePath": "D:\\UCEMA\\UCEMA-Code\\Algoritmos&Estructuras\\TP2\\TP2-Recursividad\\Ejercicio4\\Ejercicio4.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Está ejecutando la operación \"restore\" con un origen \"HTTP\", \"http://154.154.154.13:8081/repository/Pines_Nugets/\". El acceso que no sea HTTPS se quitará en una versión futura. Considere la posibilidad de migrar a un origen \"HTTPS\"."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\bin\Debug\net8.0-windows\Ejercicio3.exe
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\bin\Debug\net8.0-windows\Ejercicio3.deps.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\bin\Debug\net8.0-windows\Ejercicio3.runtimeconfig.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\bin\Debug\net8.0-windows\Ejercicio3.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\bin\Debug\net8.0-windows\Ejercicio3.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.Form1.resources
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.csproj.GenerateResource.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.AssemblyInfoInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.AssemblyInfo.cs
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.csproj.CoreCompileInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.sourcelink.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\refint\Ejercicio3.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\Ejercicio3.genruntimeconfig.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP2\TP2-Recursividad\Ejercicio3\obj\Debug\net8.0-windows\ref\Ejercicio3.dll
