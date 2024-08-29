@@ -1,0 +1,17 @@
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\bin\Debug\net8.0-windows\ColaConPrioridad.exe
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\bin\Debug\net8.0-windows\ColaConPrioridad.deps.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\bin\Debug\net8.0-windows\ColaConPrioridad.runtimeconfig.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\bin\Debug\net8.0-windows\ColaConPrioridad.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\bin\Debug\net8.0-windows\ColaConPrioridad.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.Form1.resources
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.csproj.GenerateResource.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.AssemblyInfoInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.AssemblyInfo.cs
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.csproj.CoreCompileInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.sourcelink.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\refint\ColaConPrioridad.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ColaConPrioridad.genruntimeconfig.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaConPrioridad\obj\Debug\net8.0-windows\ref\ColaConPrioridad.dll

@@ -1,0 +1,17 @@
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.Form1.resources
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.csproj.GenerateResource.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.AssemblyInfoInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.AssemblyInfo.cs
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.csproj.CoreCompileInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.sourcelink.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\bin\Debug\net8.0-windows\ColaPorTickets.exe
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\bin\Debug\net8.0-windows\ColaPorTickets.deps.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\bin\Debug\net8.0-windows\ColaPorTickets.runtimeconfig.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\bin\Debug\net8.0-windows\ColaPorTickets.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\bin\Debug\net8.0-windows\ColaPorTickets.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\refint\ColaPorTickets.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ColaPorTickets.genruntimeconfig.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\ColaPorTickets\obj\Debug\net8.0-windows\ref\ColaPorTickets.dll

@@ -1,0 +1,17 @@
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.csproj.GenerateResource.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.AssemblyInfoInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.AssemblyInfo.cs
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.csproj.CoreCompileInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.sourcelink.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\bin\Debug\net8.0-windows\Natatorio.exe
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\bin\Debug\net8.0-windows\Natatorio.deps.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\bin\Debug\net8.0-windows\Natatorio.runtimeconfig.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\bin\Debug\net8.0-windows\Natatorio.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\bin\Debug\net8.0-windows\Natatorio.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.Form1.resources
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\refint\Natatorio.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\Natatorio.genruntimeconfig.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\Colas\Colas\Natatorio\obj\Debug\net8.0-windows\ref\Natatorio.dll
