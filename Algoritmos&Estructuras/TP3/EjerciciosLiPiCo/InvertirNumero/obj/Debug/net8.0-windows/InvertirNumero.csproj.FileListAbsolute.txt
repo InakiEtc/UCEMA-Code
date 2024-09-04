@@ -1,0 +1,17 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\bin\Debug\net8.0-windows\InvertirNumero.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\bin\Debug\net8.0-windows\InvertirNumero.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\bin\Debug\net8.0-windows\InvertirNumero.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\bin\Debug\net8.0-windows\InvertirNumero.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\bin\Debug\net8.0-windows\InvertirNumero.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.Form1.resources
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.csproj.GenerateResource.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\refint\InvertirNumero.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\InvertirNumero.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirNumero\obj\Debug\net8.0-windows\ref\InvertirNumero.dll

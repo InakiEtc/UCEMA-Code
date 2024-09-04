@@ -1,0 +1,17 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\bin\Debug\net8.0-windows\PilaParesImpares.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\bin\Debug\net8.0-windows\PilaParesImpares.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\bin\Debug\net8.0-windows\PilaParesImpares.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\bin\Debug\net8.0-windows\PilaParesImpares.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\bin\Debug\net8.0-windows\PilaParesImpares.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.Form1.resources
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.csproj.GenerateResource.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\refint\PilaParesImpares.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\PilaParesImpares.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaParesImpares\obj\Debug\net8.0-windows\ref\PilaParesImpares.dll

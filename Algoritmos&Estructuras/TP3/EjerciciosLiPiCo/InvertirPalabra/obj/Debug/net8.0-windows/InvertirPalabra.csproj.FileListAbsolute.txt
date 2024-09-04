@@ -1,0 +1,17 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\bin\Debug\net8.0-windows\InvertirPalabra.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\bin\Debug\net8.0-windows\InvertirPalabra.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\bin\Debug\net8.0-windows\InvertirPalabra.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\bin\Debug\net8.0-windows\InvertirPalabra.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\bin\Debug\net8.0-windows\InvertirPalabra.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.Form1.resources
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.csproj.GenerateResource.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\refint\InvertirPalabra.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\InvertirPalabra.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\InvertirPalabra\obj\Debug\net8.0-windows\ref\InvertirPalabra.dll

@@ -1,0 +1,15 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\bin\Debug\net8.0-windows\PilaBase.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\bin\Debug\net8.0-windows\PilaBase.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\bin\Debug\net8.0-windows\PilaBase.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\bin\Debug\net8.0-windows\PilaBase.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\bin\Debug\net8.0-windows\PilaBase.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\refint\PilaBase.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\PilaBase.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\PilaBase\obj\Debug\net8.0-windows\ref\PilaBase.dll

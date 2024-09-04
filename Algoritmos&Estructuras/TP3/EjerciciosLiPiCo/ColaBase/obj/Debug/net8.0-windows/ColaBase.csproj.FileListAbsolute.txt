@@ -1,0 +1,17 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\bin\Debug\net8.0-windows\ColaBase.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\bin\Debug\net8.0-windows\ColaBase.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\bin\Debug\net8.0-windows\ColaBase.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\bin\Debug\net8.0-windows\ColaBase.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\bin\Debug\net8.0-windows\ColaBase.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\Cola01.Form1.resources
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.csproj.GenerateResource.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\refint\ColaBase.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ColaBase.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ColaBase\obj\Debug\net8.0-windows\ref\ColaBase.dll

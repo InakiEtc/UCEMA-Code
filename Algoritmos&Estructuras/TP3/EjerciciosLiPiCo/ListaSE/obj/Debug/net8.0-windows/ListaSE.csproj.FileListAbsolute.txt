@@ -1,0 +1,17 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.csproj.GenerateResource.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\bin\Debug\net8.0-windows\ListaSE.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\bin\Debug\net8.0-windows\ListaSE.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\bin\Debug\net8.0-windows\ListaSE.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\bin\Debug\net8.0-windows\ListaSE.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\bin\Debug\net8.0-windows\ListaSE.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.Form1.resources
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\refint\ListaSE.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ListaSE.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaSE\obj\Debug\net8.0-windows\ref\ListaSE.dll

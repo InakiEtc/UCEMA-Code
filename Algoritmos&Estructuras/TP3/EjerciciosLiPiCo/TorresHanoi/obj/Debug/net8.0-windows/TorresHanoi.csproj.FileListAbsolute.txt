@@ -1,0 +1,15 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\bin\Debug\net8.0-windows\TorresHanoi.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\bin\Debug\net8.0-windows\TorresHanoi.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\bin\Debug\net8.0-windows\TorresHanoi.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\bin\Debug\net8.0-windows\TorresHanoi.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\bin\Debug\net8.0-windows\TorresHanoi.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\refint\TorresHanoi.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\TorresHanoi.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\TorresHanoi\obj\Debug\net8.0-windows\ref\TorresHanoi.dll
