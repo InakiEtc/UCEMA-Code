@@ -1,0 +1,17 @@
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\bin\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.exe
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\bin\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.deps.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\bin\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.runtimeconfig.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\bin\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\bin\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.Form1.resources
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.csproj.GenerateResource.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.AssemblyInfoInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.AssemblyInfo.cs
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.csproj.CoreCompileInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.sourcelink.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\refint\EjerciciosOperPrimitivasPila.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\EjerciciosOperPrimitivasPila.genruntimeconfig.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\obj\Debug\net8.0-windows\ref\EjerciciosOperPrimitivasPila.dll

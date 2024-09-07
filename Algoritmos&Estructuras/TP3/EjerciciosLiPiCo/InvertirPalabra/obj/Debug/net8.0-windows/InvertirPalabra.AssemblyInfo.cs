@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InvertirPalabra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b5e44b6b8571292c60e1d16c68b20e5cb22cd36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e481dae362827dd3abc6ae903f8c0c89a11ae0")]
 [assembly: System.Reflection.AssemblyProductAttribute("InvertirPalabra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InvertirPalabra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
