@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qj9HxjHQfUY=",
+  "dgSpecHash": "uh4BGW5FdMA=",
   "success": true,
-  "projectFilePath": "D:\\UCEMA\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\InvertirNumero\\InvertirNumero.csproj",
+  "projectFilePath": "C:\\Users\\Iñaki\\Documents\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\InvertirNumero\\InvertirNumero.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Está ejecutando la operación \"restore\" con un origen \"HTTP\", \"http://154.154.154.13:8081/repository/Pines_Nugets/\". El acceso que no sea HTTPS se quitará en una versión futura. Considere la posibilidad de migrar a un origen \"HTTPS\"."
-    }
-  ]
+  "logs": []
 }

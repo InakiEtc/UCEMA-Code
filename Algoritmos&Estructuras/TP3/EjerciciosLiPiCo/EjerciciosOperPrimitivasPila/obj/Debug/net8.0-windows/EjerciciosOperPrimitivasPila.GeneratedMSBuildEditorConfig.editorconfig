@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EjerciciosOperPrimitivasPila
-build_property.ProjectDir = D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\
+build_property.ProjectDir = C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\EjerciciosOperPrimitivasPila\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

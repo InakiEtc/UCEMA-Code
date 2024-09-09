@@ -1,0 +1,17 @@
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\bin\Debug\net8.0-windows\ClientesCobro.exe
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\bin\Debug\net8.0-windows\ClientesCobro.deps.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\bin\Debug\net8.0-windows\ClientesCobro.runtimeconfig.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\bin\Debug\net8.0-windows\ClientesCobro.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\bin\Debug\net8.0-windows\ClientesCobro.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.Form1.resources
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.csproj.GenerateResource.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.AssemblyInfoInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.AssemblyInfo.cs
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.sourcelink.json
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\refint\ClientesCobro.dll
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.pdb
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ClientesCobro.genruntimeconfig.cache
+C:\Users\Iñaki\Documents\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ClientesCobro\obj\Debug\net8.0-windows\ref\ClientesCobro.dll

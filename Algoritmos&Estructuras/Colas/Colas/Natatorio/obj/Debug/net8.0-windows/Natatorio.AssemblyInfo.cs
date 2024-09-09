@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Natatorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1860ea6d805130ffe38ebbee4584a8115315f31e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21558c77528c444909249cc379b6e7ef6aa1f7ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Natatorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Natatorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
