@@ -1,0 +1,16 @@
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection2.exe
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection2.deps.json
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection2.runtimeconfig.json
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection2.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection2.pdb
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.Form1.resources
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.csproj.GenerateResource.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.AssemblyInfoInputs.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.AssemblyInfo.cs
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\refint\EjReflection2.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.pdb
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection2.genruntimeconfig.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\ref\EjReflection2.dll

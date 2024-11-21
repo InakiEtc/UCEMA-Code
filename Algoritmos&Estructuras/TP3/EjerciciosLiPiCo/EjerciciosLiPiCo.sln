@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesCobro", "ClientesCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impresora", "Impresora\Impresora.csproj", "{748D6A7E-F5DD-43E2-B81D-4331C6248794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDE", "ListaDE\ListaDE.csproj", "{82020266-BE2E-460C-9657-61BDE34DA726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaDE", "ListaDE\ListaDE.csproj", "{82020266-BE2E-460C-9657-61BDE34DA726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaSEC", "ListaSEC\ListaSEC.csproj", "{D68CCC3F-4A5F-4837-8336-1F6B1CD6B9B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaSEC", "ListaSEC\ListaSEC.csproj", "{D68CCC3F-4A5F-4837-8336-1F6B1CD6B9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDEC", "ListaDEC\ListaDEC.csproj", "{77CD08E3-E11D-41BD-8AC4-D1DB6D6CE76D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{D68CCC3F-4A5F-4837-8336-1F6B1CD6B9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68CCC3F-4A5F-4837-8336-1F6B1CD6B9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D68CCC3F-4A5F-4837-8336-1F6B1CD6B9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CD08E3-E11D-41BD-8AC4-D1DB6D6CE76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CD08E3-E11D-41BD-8AC4-D1DB6D6CE76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CD08E3-E11D-41BD-8AC4-D1DB6D6CE76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CD08E3-E11D-41BD-8AC4-D1DB6D6CE76D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

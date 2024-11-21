@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Iñaki\\.nuget\\packages\\": {}
+    "C:\\Users\\Inaki\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iñaki\\Documents\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\ColaBase\\ColaBase.csproj",
+      "projectUniqueName": "D:\\UCEMA\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\ColaBase\\ColaBase.csproj",
       "projectName": "ColaBase",
-      "projectPath": "C:\\Users\\Iñaki\\Documents\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\ColaBase\\ColaBase.csproj",
-      "packagesPath": "C:\\Users\\Iñaki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iñaki\\Documents\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\ColaBase\\obj\\",
+      "projectPath": "D:\\UCEMA\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\ColaBase\\ColaBase.csproj",
+      "packagesPath": "C:\\Users\\Inaki\\.nuget\\packages\\",
+      "outputPath": "D:\\UCEMA\\UCEMA-Code\\Algoritmos&Estructuras\\TP3\\EjerciciosLiPiCo\\ColaBase\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Iñaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Inaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -29,6 +34,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "http://154.154.154.13:8081/repository/Pines_Nugets/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,8 +76,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Está ejecutando la operación \"restore\" con un origen \"HTTP\", \"http://154.154.154.13:8081/repository/Pines_Nugets/\". El acceso que no sea HTTPS se quitará en una versión futura. Considere la posibilidad de migrar a un origen \"HTTPS\"."
+    }
+  ]
 }

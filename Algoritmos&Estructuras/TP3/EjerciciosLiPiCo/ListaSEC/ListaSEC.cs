@@ -61,9 +61,15 @@ namespace ListaSEC
             catch (Exception ex) { throw ex; }
         }
         public void EliminarAlPrincipio()
-        {
+        {           
             if (C.Siguiente==null) throw new Exception("No hay elementos para eliminar"); //Escenario no posible
-            C.Siguiente=C.Siguiente.Siguiente;
+            Nodo nodoAux = RetornaUltimo();
+            if (Cantidad() == 1) C.Siguiente = null;
+            else
+            {
+                C.Siguiente = C.Siguiente.Siguiente;
+                nodoAux.Siguiente = C.Siguiente;
+            }
         }
         public void EliminarAlFinal()
         {
@@ -72,7 +78,7 @@ namespace ListaSEC
             else
             {
                 Nodo aux = RetornaNodoPosNInterna(Cantidad()-1);
-                aux.Siguiente=null;
+                aux.Siguiente=C.Siguiente;
             }
         }
         public void EliminarPosicionN(int pPos)
@@ -106,11 +112,23 @@ namespace ListaSEC
 
             if (pPos1 == 1)
             {
-                C.Siguiente = nodo2;
-                nodoAnt2.Siguiente = nodo1;
-                Nodo temp = nodo1.Siguiente;
-                nodo1.Siguiente = nodo2.Siguiente;
-                nodo2.Siguiente = temp;
+                Nodo ult = RetornaUltimo();
+                if (ult == nodo2)
+                {
+                    C.Siguiente = nodo2;
+                    nodo2.Siguiente = nodo1.Siguiente;
+                    nodo1.Siguiente = nodo2;
+                    nodoAnt2.Siguiente = nodo1;
+                }
+                else
+                {
+                    C.Siguiente = nodo2;
+                    nodoAnt2.Siguiente = nodo1;
+                    Nodo temp = nodo2.Siguiente;
+                    nodo2.Siguiente = nodo1.Siguiente;
+                    nodo1.Siguiente = temp;
+                    ult.Siguiente = C.Siguiente;
+                }                                
             }
             else if (pPos2 == pPos1 + 1)
             {

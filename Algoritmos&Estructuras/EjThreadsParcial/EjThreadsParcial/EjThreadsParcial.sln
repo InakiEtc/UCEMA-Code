@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjThreadsParcial", "EjThreadsParcial\EjThreadsParcial.csproj", "{9B83B163-8BFE-4BEE-9BAC-196F09F9E8D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B83B163-8BFE-4BEE-9BAC-196F09F9E8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B83B163-8BFE-4BEE-9BAC-196F09F9E8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B83B163-8BFE-4BEE-9BAC-196F09F9E8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B83B163-8BFE-4BEE-9BAC-196F09F9E8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9DD1A6-92DE-4585-AC81-E89E3767DF6D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection3.exe
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection3.deps.json
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection3.runtimeconfig.json
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection3.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\bin\Debug\net8.0-windows\EjReflection3.pdb
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.csproj.GenerateResource.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.AssemblyInfoInputs.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.AssemblyInfo.cs
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.csproj.CoreCompileInputs.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\refint\EjReflection3.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.pdb
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.genruntimeconfig.cache
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\ref\EjReflection3.dll
+C:\Users\Iñaki\source\repos\EjerciciosRepaso\EjReflection2\obj\Debug\net8.0-windows\EjReflection3.Form1.resources

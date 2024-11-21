@@ -1,0 +1,13 @@
+Practica Parcial 2
+
+Ej. 1
+Una tienda en linea recibe varios pedidos simultáneamente y necesita procesarlo de forma eficiente para
+preparar, empacar y enviar los productos. Específicamente cada pedidos pasa x 3 fases 
+1. Preparación del pedido (Verifica y recoge los artículos)
+2. Empaque del pedido (asegura que el empaque sea correcto)
+3. Envío del pedido (el pedido se registra para ser enviado).
+La tienda tiene varias estaciones (Threads, 1 thread x estación) para cada fase. La fase de reparación tiene 3 estaciones
+la de empaque 2 y la de envió 1. cada pedido necesita pasar x estas 3 fases en orden pero no necesariamente en el mismo thread
+ya que las estaciones funcionan de manera independiente. desarrollar un programa que simule el procesamiento de pedidos en 
+paralelo utilizando threads. cada pedido pasa x las 3 fases secuencialmente y cada fase toma un tiempo aleatorio entre 1 y 3
+segundos para simular el tiempo de procesamiento

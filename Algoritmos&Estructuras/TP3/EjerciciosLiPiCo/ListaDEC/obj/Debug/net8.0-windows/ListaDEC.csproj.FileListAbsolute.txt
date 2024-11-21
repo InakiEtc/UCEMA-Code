@@ -1,0 +1,17 @@
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\bin\Debug\net8.0-windows\ListaDEC.exe
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\bin\Debug\net8.0-windows\ListaDEC.deps.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\bin\Debug\net8.0-windows\ListaDEC.runtimeconfig.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\bin\Debug\net8.0-windows\ListaDEC.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\bin\Debug\net8.0-windows\ListaDEC.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.Form1.resources
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.csproj.GenerateResource.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.AssemblyInfoInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.AssemblyInfo.cs
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.csproj.CoreCompileInputs.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.sourcelink.json
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\refint\ListaDEC.dll
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.pdb
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ListaDEC.genruntimeconfig.cache
+D:\UCEMA\UCEMA-Code\Algoritmos&Estructuras\TP3\EjerciciosLiPiCo\ListaDEC\obj\Debug\net8.0-windows\ref\ListaDEC.dll
